@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    margin: 0px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.container{
+    margin: 0px 166px;
+    padding-left: 166px;
+    margin-right: 166px;
+}
+.header{
+    background-image: url(bg.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.naff{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 25px;
+    transition: color 0.3s linear;
+}
+.card{
+    position: relative;
+    border-right: 1px solid #FFFFFF;
+    padding-right: 10px;
+    height: 50px;
+}
+.card-img{
+    position: absolute;
+    top: 18px;
+    right: 15px;
+}
+
+.num{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 0.3s linear;
+
+
+}
+.phone-text{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+.phone-holder{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+  
+    
+    
+    
+        
+}
+.button{
+    background-color: #FF7400;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 18px;
+    font-weight: 700;
+    transition: background-color 0.2s linear;
+}
+.naff:hover{
+    color: #d81d1d;
+}
+.num:hover{
+
+    color: #d81d1d;
+}
+
+.button:hover{
+
+    background-color: #aa5a19;
+}
+.header-down{
+    position: relative;
+    margin-top: 222px;
+}
+
+.header-title{
+    color: #aa5a19;
+      padding-left: 350px;
+      font-size: 50px;
+      font-weight: 400;
+      text-align: center;
+      position: absolute;
+      left: 0px;
+}
+
+.header-suptitle{
+    color: #fff;
+    font-size:18px ;
+    padding-top: 5px;
+}
+.header-suptitle::after{
+    position: absolute;
+    content:"" ;
+    height: 2px;
+    width: 61px;
+    background-color: #fff;
+    top: 129px;
+    left: 410px;
+
+
+}
+.header-suptitle::before{
+    position: absolute;
+    content:"" ;
+    height: 2px;
+    width: 61px;
+    background-color: #fff;
+    top: 129px;
+    left: 660px;
+}
+.header-button{
+    background-color: #FF7400;
+    padding: 14px 28px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+
+}
